@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _myenv – I will use to print the current environment
- * @info: Structure containing potential arguments. Used to maintain
+ * _myenv - prints the current environment
+ * @info: contains and used to control potential arguments
  *          constant function prototype.
  * Return: Always 0
  */
@@ -13,8 +13,8 @@ int _myenv(info_t *info)
 }
 
 /**
- * _getenv - gets the value of an environ variable
- * @info: Structure containing potential arguments. Used to maintain
+ * _getenv – will get the value of the environmental variable
+ * @info: will be used for maintenance for the variables
  * @name: env var name
  *
  * Return: the value
@@ -35,9 +35,9 @@ char *_getenv(info_t *info, const char *name)
 }
 
 /**
- * _mysetenv – starts creating a new environment variable,
+ * _mysetenv – new  environmental variable will be started
  *             or modify an existing one
- * @info: Structure containing potential arguments.will maintain
+ * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
  */
@@ -54,10 +54,10 @@ int _mysetenv(info_t *info)
 }
 
 /**
- * _myunsetenv – used to delete or remove an environment variable
- * @info: Structure containing potential arguments. Used to maintain
+ * _myunsetenv - Remove an environment variable
+ * @info: Structure containing potential arguments. I will use to maintain
  *        constant function prototype.
- *  Return: Always 0
+ * Return: Always 0
  */
 int _myunsetenv(info_t *info)
 {
@@ -75,8 +75,8 @@ int _myunsetenv(info_t *info)
 }
 
 /**
- * populate_env_list – will show env linked list
- * @info: Structure containing potential arguments. Will maintain
+ * populate_env_list – will populate the env list on my terminal
+ * @info: Structure containing potential arguments. I will use to maintain
  *          constant function prototype.
  * Return: Always 0
  */
