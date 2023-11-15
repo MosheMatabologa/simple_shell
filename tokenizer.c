@@ -1,7 +1,11 @@
 #include "shell.h"
 
 /**
+<<<<<<< HEAD
  * **strtow - divides splits a string into words. occuring more than once  delimiters are ignored
+=======
+ * **strtow - splits a string into words. Repeat delimiters are ignored
+>>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
  * @str: the input string
  * @d: the delimeter string
  * Return: a pointer to an array of strings, or NULL on failure
@@ -49,8 +53,13 @@ char **strtow(char *str, char *d)
 }
 
 /**
+<<<<<<< HEAD
  * **strtow2 - function divides splits a string into words
  * @str: the afromentioned input string
+=======
+ * **strtow2 - splits a string into words
+ * @str: the input string
+>>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
  * @d: the delimeter
  * Return: a pointer to an array of strings, or NULL on failure
  */

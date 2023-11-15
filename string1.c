@@ -1,8 +1,13 @@
 #include "shell.h"
 
 /**
+<<<<<<< HEAD
  * _strcpy - function to copy a string
  * @dest: desktop created ti wrtie the destination
+=======
+ * _strcpy - copies a string
+ * @dest: the destination
+>>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
  * @src: the source
  *
  * Return: pointer to destination
@@ -65,8 +70,13 @@ void _puts(char *str)
 }
 
 /**
+<<<<<<< HEAD
  * _putchar - (as used before) writes the character c to stdout
  * @c: The character we need to  print
+=======
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+>>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.

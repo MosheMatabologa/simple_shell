@@ -1,8 +1,13 @@
 #include "shell.h"
 
 /**
+<<<<<<< HEAD
  * is_chain - will work on testing the current char in buffer is a chain delimeter
  * @info: is the parameter struct
+=======
+ * is_chain - test if current char in buffer is a chain delimeter
+ * @info: the parameter struct
+>>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
  * @buf: the char buffer
  * @p: address of current position in buf
  *
@@ -140,7 +145,11 @@ int replace_vars(info_t *info)
 }
 
 /**
+<<<<<<< HEAD
  * replace_string - function replaces string
+=======
+ * replace_string - replaces string
+>>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
  * @old: address of old string
  * @new: new string
  *
