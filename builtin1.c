@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _myhistory - will the history list, one command by line, preceded
- *              by line numbers, starting at 0.
- * @info: Structure containing potential arguments. Used to maintain
+ * _myhistory – displays history in order
+ *              wline numbers will start from 0
+ * @info: this has structures and maintains them
  *        constant function prototype.
  *  Return: Always 0
  */
@@ -14,9 +14,9 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias – will use this to set alias to string
- * @info: parameter structure
- * @str: will be the string alias
+ * unset_alias – I will move alias using to string using this function
+ * @info: my method for parameter struct
+ * @str: represents the string alias
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -37,9 +37,9 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alias – function will set alias to string
- * @info: parameter structure
- * @str: the string alias
+ * set_alias – as above sets string to alias
+ * @info: struc parameter
+ * @str: alias string
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -59,7 +59,7 @@ int set_alias(info_t *info, char *str)
 
 /**
  * print_alias – will print an alias string
- * @node: the alias node (node)
+ * @node: node alias found here
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -71,7 +71,7 @@ int print_alias(list_t *node)
 	{
 		p = _strchr(node->str, '=');
 		for (a = node->str; a <= p; a++)
-			_putchar(*a);
+		_putchar(*a);
 		_putchar('\'');
 		_puts(p + 1);
 		_puts("'\n");

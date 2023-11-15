@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- *_errorputs - prints an input string
- * @str: the string to be printed
- * Authot: Moshe Matabologa
+ * _eputs - prints an input to string
+ * @str: the string to my system will print
+ *
  * Return: Nothing
  */
-void _errorputs(char *str)
+void _eputs(char *str)
 {
 	int i = 0;
 
@@ -14,19 +14,19 @@ void _errorputs(char *str)
 		return;
 	while (str[i] != '\0')
 	{
-		_errorputchar(str[i]);
+		_eputchar(str[i]);
 		i++;
 	}
 }
 
 /**
- * _errorputchar - writes the character c to stderr
- * @c: The character to print
+ * _eputchar - writes the character c to stderr
+ * @c: CHarevtor to be printed
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _errorputchar(char c)
+int _eputchar(char c)
 {
 	static int i;
 	static char buf[WRITE_BUF_SIZE];
@@ -42,8 +42,8 @@ int _errorputchar(char c)
 }
 
 /**
- * _putfd - writes the character c to given fd
- * @c: The character to print
+ * _putfd - writes the charactr c to fd
+ * @c: the character that I will print on the terminal
  * @fd: The filedescriptor to write to
  *
  * Return: On success 1.
@@ -65,9 +65,9 @@ int _putfd(char c, int fd)
 }
 
 /**
- *_putsfd - prints an input string
- * @str: the string to be printed
- * @fd: the filedescriptor to write to
+ * _putsfd – will print a string input
+ * @str: this is the string that will print on the terminal
+ * @fd: the filedescriptor 
  *
  * Return: the number of chars put
  */

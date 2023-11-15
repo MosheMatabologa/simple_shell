@@ -45,7 +45,11 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
 }
 
 /**
+<<<<<<< HEAD
  * get_input - gets a line minus the newline
+=======
+ * get_input - gets a line subtraced by the newline
+>>>>>>> 2fd19d552464bf55de0970c403c090f91e9f0c20
  * @info: parameter struct
  *
  * Return: bytes read
@@ -90,9 +94,15 @@ ssize_t get_input(info_t *info)
 }
 
 /**
+<<<<<<< HEAD
  * read_buf - reads a buffer
  * @info: parameter struct
  * @buf: buffer
+=======
+ * read_buf - function of the buffer
+ * @info: parameter struct
+ * @buf: is the buffer
+>>>>>>> 2fd19d552464bf55de0970c403c090f91e9f0c20
  * @i: size
  *
  * Return: r
@@ -110,9 +120,15 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 }
 
 /**
+<<<<<<< HEAD
  * _getline - gets the next line of input from STDIN
  * @info: parameter struct
  * @ptr: address of pointer to buffer, preallocated or NULL
+=======
+ * _getline - will get the next line of input from STDIN
+ * @info: parameter struct
+ * @ptr: illustrates the address of pointer to buffer, preallocated or NULL
+>>>>>>> 2fd19d552464bf55de0970c403c090f91e9f0c20
  * @length: size of preallocated ptr buffer if not NULL
  *
  * Return: s
@@ -157,8 +173,13 @@ int _getline(info_t *info, char **ptr, size_t *length)
 }
 
 /**
+<<<<<<< HEAD
  * sigintHandler - blocks ctrl-C
  * @sig_num: the signal number
+=======
+ * sigintHandler - block ctrl-C
+ * @sig_num: represents the signal number
+>>>>>>> 2fd19d552464bf55de0970c403c090f91e9f0c20
  *
  * Return: void
  */
