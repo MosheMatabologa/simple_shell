@@ -78,7 +78,3 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	free(ptr);
 	return (p);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> d5aabe718f103497afd12d2df6a36b9b9bb585a3
