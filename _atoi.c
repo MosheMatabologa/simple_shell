@@ -3,7 +3,7 @@
 /**
  * interactive – I am returning functions from the shell in interactive
  * @info: struct address
- * Authors: Moshe Matabologa and Onkabetsi
+ * Authors: Moshe Matabologa and Onkabetse02
  * Return: 1 if interactive mode, 0 otherwise for flagging
  */
 int interactive(info_t *info)
